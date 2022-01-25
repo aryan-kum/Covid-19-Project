@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src ="ajax.js"></script>
+    <script src="jscript.js"></script>
+    <title>COVID-19 Project</title>
+  </head>
+  <body onload="data();">
+    <h1><center><br><br>COVID-19 Project</br></br></center></h1>
+    <h1><center>Graph 1</center></h1>
+    <div id="barch"></div>
+    <h1><center>Graph 2</center></h1>
+    <div id="piech"></div>
+    <h1><center>Graph 3</center></h1>
+    <br><b>Fully Vaccinated Rate By Date</b></br>
+    Location: <input type="text" id="stuff" />
+    <button onClick="data_line_chart();">Plot It</button>
+    <div id="linegr"></div>
+
+  </body>
+</html>
